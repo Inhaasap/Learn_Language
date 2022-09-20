@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
     <header>
       <nav>
-        <a href="#">Britlex</a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contacts</a></li>
+        <a class="link logo" href="#">Brit<span class="logo-part">lex</span></a>
+        <ul class="list">
+          <li><a class="link nav-link" href="#">Home</a></li>
+          <li><a class="link nav-link" href="#">Skills</a></li>
+          <li><a class="link nav-link" href="#">About Us</a></li>
+          <li><a class="link nav-link" href="#">Pricing</a></li>
+          <li><a class="link nav-link" href="#">Contacts</a></li>
         </ul>
       </nav>
       <button type="button">Let’s Talk</button>
@@ -39,7 +46,7 @@
       <!-- skils -->
       <section>
         <h2>Skills</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./Images/Speaking.jpg" alt="Speaking" width="390" />
             <h3>Speaking</h3>
@@ -52,7 +59,7 @@
               high-quality courses and resources – all designed for adult
               language learners.
             </p>
-            <a href="#">Learn more</a>
+            <a class="link" href="#">Learn more</a>
           </li>
           <li>
             <img src="./Images/Writing.jpg" alt="Writing" width="390" />
@@ -61,7 +68,7 @@
               One of the most important and extensive areas of natural science,
               the science that studies substances, also their composition
             </p>
-            <a href="#">Learn more</a>
+            <a class="link" href="#">Learn more</a>
           </li>
           <li>
             <img src="./Images/Reading.jpg" alt="Reading" width="390" />
@@ -70,7 +77,7 @@
               Perception and response actions of the user resulting from the use
               and/or upcoming use of the product, system or service
             </p>
-            <a href="#">Learn more</a>
+            <a class="link" href="#">Learn more</a>
           </li>
           <li>
             <img src="./Images/Listening.jpg" alt="Listening" width="390" />
@@ -79,7 +86,7 @@
               Here you can find activities to practise your listening skills.
               Listening will help you to improve your understanding
             </p>
-            <a href="#">Learn more</a>
+            <a class="link" href="#">Learn more</a>
           </li>
         </ul>
       </section>
@@ -93,7 +100,7 @@
           future software product is described quite abstractly from the point
           of view of the expectations of both users and the customer.
         </p>
-        <ul>
+        <ul class="list">
           <li>
             <p>800</p>
             <p>Pupils</p>
@@ -116,7 +123,7 @@
       <!-- pricing -->
       <section>
         <h2>Pricing</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./Images/Self-stady.jpg" alt="Self-stady" width="426" />
             <h3>Self-study online course</h3>
@@ -150,17 +157,20 @@
       <!-- contacts -->
       <section>
         <h2>Contact Us</h2>
-        <img src="./Images/Contact.jpg" alt="Boy" width="425">
-      <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips and free resources</p>
-      <form action="">
-        <input type="text" placeholder="Enter Your E-mail">
-        <button type="submit">Subscribe</button>
-      </form>
+        <img src="./Images/Contact.jpg" alt="Boy" width="425" />
+        <p>
+          Discover your current English level by taking our free online English
+          test. Sign up to our newsletter for learning tips and free resources
+        </p>
+        <form action="">
+          <input type="text" placeholder="Enter Your E-mail" />
+          <button type="submit">Subscribe</button>
+        </form>
       </section>
     </main>
     <footer>
       <a href="#">Britlex</a>
-      <ul>
+      <ul class="list">
         <li><a href="#">Terms and Conditions</a></li>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Cookie Policy</a></li>
